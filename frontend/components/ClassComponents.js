@@ -10,7 +10,12 @@ const initialState = {
 }
 const URL = 'http://localhost:9000/api/quotes'
 
-export default function ClassComponents() {
+export default class ClassComponents extends React.Component {
+  
+}
+
+
+function foo() {
   const [state, setState] = useState(initialState)
 
   const onError = err => {
